@@ -1,21 +1,29 @@
 <app-navbar></app-navbar>
 <div class="container">
-    <div class="form">
-        <div class="name">
+    <form class="form">
+        <div class="form form-controll">
             <input type="text" placeholder="First Name">
         </div>
-        <div class="name">
+        <div class="form form-controll">
             <input type="text" placeholder="Last Name">
+        </div>   
+        <div class="form form-controll">
+            <input type="email" placeholder="Email">
         </div>
-        <div class="name">
-            <input type="text" placeholder="Email">
-        </div>
-        <div class="name">
+        <div class="form form-controll">
             <input type="text" placeholder="Password">
         </div>
-        <div class="btn">
-            <button class="btn btn-primary">Sign up</button>
+        <div class="bttn">
+            <button class="btn" (click)="onSignup">Sign up</button>
         </div>
 
+    </form>
+    <mat-divider></mat-divider>
+    <div class="bfield">
+        <p>Already Have an Account!! <a href="login" class="link">Login</a></p>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="bfield">
+        <p>By Signing up an Account, you agree to our Terms of Service and acknowledge our Privacy Notice.</p>
     </div>
 </div>

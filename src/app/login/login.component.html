@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <form class="form">
+        <div class="form form-controll">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="form form-controll">
+            <input type="text" placeholder="Password">
+        </div>
+        <div class="bttn">
+            <button class="btn" (click)="onSignin">Sign In</button>
+        </div>
+
+        <mat-divider></mat-divider>
+        <div class="social-links">
+            <button class="btn" (click)="onSignin"> <span><i class="fa-brands fa-facebook fa-2x"></i></span>Continue with facebook</button>
+        </div>
+        <div class="social-links">
+            <button class="btn" (click)="onSignin"> <span><i class="fa-brands fa-google fa-2x "></i></span>Continue with Google</button>
+        </div>
+        <div class="social-links">
+            <button class="btn" (click)="onSignin"> <span><i class="fa-brands fa-apple fa-2x " style="color: black;"></i></span>Continue with Apple</button>
+        </div>
+    </form>
+    <mat-divider></mat-divider>
+    <div class="bfield">
+        <p>Don't Have an Account? <a href="" class="link">Sign Up</a></p>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="bfield">
+        <p>By Logining into an Account, you agree to our Terms of Service and acknowledge our Privacy Notice.</p>
+    </div>
+</div>

@@ -13,11 +13,29 @@ input {
     font-size: 16px;
 }
 .btn{
+    text-transform: uppercase;
     width: 100%;
     padding: 7px;
-    background-color: black;
+    background-color: #000;
     text-align: center;
     color: #fff;
+}
+.social-links .btn{
+    text-transform: uppercase;
+    width: 100%;
+    margin: 7px 0px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: center;
+    color: #000;
+}
+.social-links .btn span{
+    text-transform: uppercase;
+    width: 100%;
+    margin-right: 7px;
+    text-align: center;
+    color: #560ffa;
 }
 .bfield{
     padding-top: 9px;
