@@ -1,29 +1,39 @@
 <app-navbar></app-navbar>
-<div class="container">
-    <form class="form">
-        <div class="form form-controll">
-            <input type="text" placeholder="First Name">
-        </div>
-        <div class="form form-controll">
-            <input type="text" placeholder="Last Name">
-        </div>   
-        <div class="form form-controll">
-            <input type="email" placeholder="Email">
-        </div>
-        <div class="form form-controll">
-            <input type="text" placeholder="Password">
-        </div>
-        <div class="bttn">
-            <button class="btn" (click)="onSignup">Sign up</button>
+<div class="container min-container py-md-2 mt-1">
+    <div class="card-panel p-sm-3 position-relative">
+        <div class="text-center">
+            <form id="loginForm" class="mt-2">
+                <div class="form-group position-relative my-2">
+                    <input class="form-control input-lg" type="email" placeholder="First Name" required>
+                </div>
+                <div class="form-group position-relative my-2">
+                    <input class="form-control input-lg" type="email" placeholder="Last Name" required>
+                </div>
+                <div class="form-group position-relative">
+                    <input class="form-control input-lg" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group position-relative my-2">
+                    <input class="form-control input-lg" type="text" placeholder="Password" required>
+                </div>
+                <div class="form-group position-relative my-2">
+                    <button class="form-control bg-black text-white" (click)="onSignup()">Sign In</button>
+                </div>
+
+                <mat-divider></mat-divider>
+                <div class="text-center my-2">
+                    <p>Already Have an Account? <a href="login" class="link text-uppercase">Sign In</a></p>
+
+                </div>
+                <mat-divider></mat-divider>
+                <div class="text-center my-2">
+                    <p>By Signing up an Account, you agree to our Terms of Service and acknowledge our Privacy
+                        Notice.
+                    </p>
+                </div>
+
+            </form>
         </div>
 
-    </form>
-    <mat-divider></mat-divider>
-    <div class="bfield">
-        <p>Already Have an Account!! <a href="login" class="link">Login</a></p>
     </div>
-    <mat-divider></mat-divider>
-    <div class="bfield">
-        <p>By Signing up an Account, you agree to our Terms of Service and acknowledge our Privacy Notice.</p>
-    </div>
+
 </div>

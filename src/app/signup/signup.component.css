@@ -1,4 +1,4 @@
-.container{
+/* .container{
     width: auto;
     margin-top: 50px;
     border: 1px solid #ccc;
@@ -27,4 +27,46 @@ input {
 .link {
     color: #000;
     font-size: 13pt;
+  } */
+
+
+
+
+  .card-panel {
+    
+    border: 1px solid #ccc;
+    margin: 0.5rem 0 1rem;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  
+  /* Font Awesome Icons */
+  
+  .form-group a i {
+    font-family: FontAwesome;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-style: normal;
+  }
+  
+  .min-container .card-panel form .fa {
+    top: 13px;
+    right: 1rem;
+  }
+  
+  .link {
+    color: #000;
+    font-size: 13pt;
+    text-decoration: none;
+  }
+  /* Media Queries */
+  
+  @media (min-width: 768px) {
+    .min-container {
+      max-width: 650px;
+    }
+  }
+  
+  .min-container {
+    margin: 0 auto;
   }
